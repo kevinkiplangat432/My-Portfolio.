@@ -56,3 +56,16 @@ document.addEventListener("DOMContentLoaded", function() {
         window.location.href = "contact.html"; // Redirect to contact.html
     });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  // detect the current file name
+  const page = window.location.pathname;
+
+  // only show banner on about.html
+  if (page.includes("projects.html")) {
+    const banner = document.createElement("div");
+    banner.className = "construction-banner";
+    banner.innerText = "This page is still under construction!";
+    document.body.prepend(banner);
+  }
+});

@@ -79,3 +79,75 @@ button:active {
     width: 60%;
     align-self: center;
 }
+
+#contact-form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;  
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 15px;
+}
+#footer1{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: fit-content;
+}
+#main2 {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 0px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10;
+    margin-left: 55px;
+    justify-content: center;
+}
+#main2 h2{
+    font-size: 10px;
+}
+#main2 p{
+    font-size: 8px;
+    margin: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 60%;
+    align-self: center;
+}
+#main3 {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 0px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10;
+    margin-left: 55px;
+}
+#main3 h1{
+    font-size: 30px;
+    margin-top: 20px;
+}
+#main3 p{
+    font-size: 8px;
+    margin: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 60%;
+    align-self: center;
+}
+
+.skills ul{
+    text-decoration: none;
+    font-size: 8px;
+    text-align:left ;
+}
+.construction-banner{
+    color: red;
+    border: white;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
